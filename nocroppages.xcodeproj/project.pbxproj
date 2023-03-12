@@ -29,6 +29,8 @@
 		86E4D3EB29BE49B40030E5CB /* NewImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E4D3E929BE49B40030E5CB /* NewImageTableViewCell.xib */; };
 		86E4D3EE29BE49CD0030E5CB /* DraftImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E4D3EC29BE49CD0030E5CB /* DraftImageTableViewCell.swift */; };
 		86E4D3EF29BE49CD0030E5CB /* DraftImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E4D3ED29BE49CD0030E5CB /* DraftImageTableViewCell.xib */; };
+		86E4D3F229BE5F8F0030E5CB /* DraftRenameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E4D3F029BE5F8F0030E5CB /* DraftRenameView.swift */; };
+		86E4D3F329BE5F8F0030E5CB /* DraftRenameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E4D3F129BE5F8F0030E5CB /* DraftRenameView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		86E4D3E929BE49B40030E5CB /* NewImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewImageTableViewCell.xib; sourceTree = "<group>"; };
 		86E4D3EC29BE49CD0030E5CB /* DraftImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftImageTableViewCell.swift; sourceTree = "<group>"; };
 		86E4D3ED29BE49CD0030E5CB /* DraftImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DraftImageTableViewCell.xib; sourceTree = "<group>"; };
+		86E4D3F029BE5F8F0030E5CB /* DraftRenameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftRenameView.swift; sourceTree = "<group>"; };
+		86E4D3F129BE5F8F0030E5CB /* DraftRenameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DraftRenameView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 				86E4D3E729BE49940030E5CB /* nib */,
 				86B9203229B7C79600418BAD /* DraftView.swift */,
 				86B9203329B7C79600418BAD /* DraftView.xib */,
+				86E4D3F029BE5F8F0030E5CB /* DraftRenameView.swift */,
+				86E4D3F129BE5F8F0030E5CB /* DraftRenameView.xib */,
 			);
 			path = draft;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				86E4D3EF29BE49CD0030E5CB /* DraftImageTableViewCell.xib in Resources */,
 				86AD1EA829B891B8009C78E3 /* HeaderView.xib in Resources */,
 				86B9203529B7C79600418BAD /* DraftView.xib in Resources */,
+				86E4D3F329BE5F8F0030E5CB /* DraftRenameView.xib in Resources */,
 				86B9202529B7C6FD00418BAD /* Main.storyboard in Resources */,
 				86E4D3EB29BE49B40030E5CB /* NewImageTableViewCell.xib in Resources */,
 				86AD1E9529B86633009C78E3 /* SettingsViewController.xib in Resources */,
@@ -226,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B9202229B7C6FD00418BAD /* ViewController.swift in Sources */,
+				86E4D3F229BE5F8F0030E5CB /* DraftRenameView.swift in Sources */,
 				86AD1EA729B891B8009C78E3 /* HeaderView.swift in Sources */,
 				86B9201E29B7C6FD00418BAD /* AppDelegate.swift in Sources */,
 				8683368529BA733B00D06306 /* AddGoogleSites.swift in Sources */,
