@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewImageTableViewCell" rowHeight="115" id="KGk-i7-Jjw" customClass="NewImageTableViewCell" customModule="nocroppages" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFu-dX-tk9">
+                        <rect key="frame" x="20" y="5" width="260" height="105"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yka-7k-ce9">
+                                <rect key="frame" x="20.000000000000004" y="42" width="34.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="PTf-4L-WiM">
+                                <rect key="frame" x="220" y="42.666666666666664" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PTf-4L-WiM" secondAttribute="height" multiplier="1:1" id="8Zp-rQ-sVC"/>
+                                    <constraint firstAttribute="width" constant="20" id="S3V-9e-FdD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.88627450980392153" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yka-7k-ce9" firstAttribute="leading" secondItem="RFu-dX-tk9" secondAttribute="leading" constant="20" id="Pnt-SY-MgV"/>
+                            <constraint firstItem="PTf-4L-WiM" firstAttribute="centerY" secondItem="RFu-dX-tk9" secondAttribute="centerY" id="ZIg-0O-jL2"/>
+                            <constraint firstAttribute="trailing" secondItem="PTf-4L-WiM" secondAttribute="trailing" constant="20" id="idS-kZ-vOb"/>
+                            <constraint firstItem="yka-7k-ce9" firstAttribute="centerY" secondItem="RFu-dX-tk9" secondAttribute="centerY" id="nUE-Yv-G0r"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="RFu-dX-tk9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="4u7-yV-Tqg"/>
+                    <constraint firstAttribute="trailing" secondItem="RFu-dX-tk9" secondAttribute="trailing" constant="20" id="WdJ-Yj-dXe"/>
+                    <constraint firstItem="RFu-dX-tk9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cNM-KW-V4W"/>
+                    <constraint firstAttribute="bottom" secondItem="RFu-dX-tk9" secondAttribute="bottom" constant="5" id="lRP-sL-zen"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="35.114503816793892" y="44.718309859154935"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="24" height="24"/>
+    </resources>
+</document>

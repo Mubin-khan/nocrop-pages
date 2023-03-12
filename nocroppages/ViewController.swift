@@ -20,5 +20,9 @@ class ViewController: UIViewController {
         present(vc, animated: true)
     }
     
+    @IBAction func draftAction(_ sender: Any) {
+        let dfView = DraftView(frame: self.view.bounds)
+        self.view.addSubview(dfView)
+    }
 }
 
